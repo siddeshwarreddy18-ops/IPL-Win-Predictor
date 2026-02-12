@@ -1,25 +1,26 @@
 # IPL Win Predictor 🏏
 
-## 📌 Project Overview
-This project predicts winning probability of IPL matches using Machine Learning.
+## 🚀 Project Overview
+This project predicts the winning probability of IPL teams during a live match chase using Machine Learning.
 
 ## 📊 Dataset
-IPL matches and deliveries dataset.
+IPL match and delivery dataset used for training the model.
 
-## 🧠 Model Used
-Logistic Regression
+## 🧠 Machine Learning Model
+- Logistic Regression
+- Feature Engineering applied for match situation analysis
 
-## ⚙ Features
+## ⚙ Features Used
 - Batting Team
 - Bowling Team
 - City
 - Runs Left
 - Balls Left
 - Wickets Left
-- Current Run Rate
-- Required Run Rate
+- Current Run Rate (CRR)
+- Required Run Rate (RRR)
 
-## 🚀 Technologies
+## 🛠 Technologies Used
 - Python
 - Pandas
 - Scikit-learn
@@ -27,8 +28,14 @@ Logistic Regression
 
 ## ▶ How To Run Project
 
-Install dependencies:
+### Step 1 – Install Dependencies
 pip install -r requirements.txt
 
-Run Streamlit app:
+### Step 2 – Run Application
 streamlit run app.py
+
+## 🎯 Project Purpose
+To analyze live match situations and predict win probability using Machine Learning.
+
+## 👨‍💻 Author
+Siddeshwar Reddy
